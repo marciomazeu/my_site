@@ -1,0 +1,82 @@
+.curriculo__idiomas{
+    padding:1rem;
+    margin-bottom: 4rem;
+}
+
+.curriculo__idiomas-titulo{
+    text-align: center;
+    font-size: 20px;
+    margin: 1rem;
+    font-weight: 700;
+}
+
+.curriculo__idiomas-idioma{
+    margin-top: 1.5rem ;
+    margin-bottom:0.5rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.curriculo__idiomas-descricao-nivel{
+    font-size: 0.8rem;
+}
+
+
+.curriculo__idiomas-nivel2-portugues{
+    background-color: rgb(46, 19, 199);
+    width:100%;
+    height: 1rem;
+    border-radius: 10px;
+}
+
+.curriculo__idiomas-nivel2-ingles{
+    background-color: rgb(46, 19, 199);
+    width:80%;
+    height: 1rem;
+    border-radius: 10px;
+}
+
+
+.curriculo__idiomas-descricao-ingles-cetificado{
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.curriculo__idiomas-nivel-frances{
+    background-color: rgb(206, 205, 205);
+    width:100%;
+    height: 1rem;
+    border-radius: 10px;
+}
+.curriculo__idiomas-nivel2-frances{
+    background-color: rgb(46, 19, 199);
+    width:60%;
+    height: 1rem;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 1441px) {
+    .curriculo__idiomas{
+        padding:1rem;
+        margin-bottom: 4rem;
+        max-width: 1440px;
+        margin:0 auto;
+       line-height: 25px;
+    }
+
+    .curriculo__idiomas-conteudo{
+        display:flex;
+        justify-content: space-between;
+      margin-bottom: 4rem;
+    }
+    .curriculo__idiomas-idioma{
+        font-size: 1.4rem;
+    }
+    .curriculo__idiomas-descricao-nivel{
+        font-size: 1.3rem;
+    }
+    .curriculo__idiomas-descricao-ingles-cetificado{
+        font-size: 1.3rem;
+        margin-top: 0.8rem;
+    }
+}

@@ -1,0 +1,1 @@
+.sobre__texto {color: var(--champanhe);line-height: 1.5rem;margin: 1.5rem;font-size:1.4rem;}@media screen and (min-width: 320px) {.sobre__texto {line-height: 2rem;margin: 1.5rem;font-size:1.6rem;}}@media screen and (min-width: 720px) and (max-width: 1440px) {.sobre__texto {line-height: 2.5rem;}}@media screen and (min-width: 1441px) {.sobre__texto {line-height: 2.5rem;}}

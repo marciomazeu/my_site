@@ -1,0 +1,43 @@
+.curriculo__educacao{
+    padding:1rem;
+    line-height: 20px;
+}
+
+.curriculo__educacao-titulo {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem;
+    font-weight: 700;
+}
+
+.curriculo__educacao-tipo {
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+.curriculo__educacao-atividades li::before {
+    /* list-style-image: url("../../assets/verifica.png"); */
+    content:"✓";
+    color: var(--gunmetal);
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 1441px) {
+    .curriculo__educacao{
+        padding:1rem;
+        line-height: 20px;
+        max-width: 1440px;
+        margin:0 auto;
+        font-size: 1.2rem;
+    }
+    .curriculo__educacao-titulo {
+        
+        font-size: 2rem;
+       
+    }
+    .curriculo__educacao-atividades{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+}

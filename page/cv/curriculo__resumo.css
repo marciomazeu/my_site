@@ -1,0 +1,15 @@
+.curriculo__resumo{
+    padding:1rem;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 1441px) {
+    .curriculo__resumo{
+        padding:1rem;
+        line-height: 1.8rem;
+        font-size: 1.4rem;
+        max-width: 1440px;
+        margin:0 auto 1.2rem;
+    }
+
+}

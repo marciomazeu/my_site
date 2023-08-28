@@ -1,0 +1,100 @@
+.curriculo__header-container{
+  width: 100%;
+  background-color: var(--gunmetal);
+}
+.curriculo__header-conteudo {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--gunmetal);
+  color: var(--champanhe);
+  min-height: 10vh;
+  max-width: 1440px;
+  align-items: center;
+  padding: 1rem;
+  margin:0 auto;
+
+}
+
+.curriculo__header-identidade-nome {
+  font-size: 1.3rem;
+  max-width: 1440px;
+}
+.curriculo__header-identidade-profissao {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.curriculo__header-identidade-imagem {
+  width: 4rem;
+  height: 4rem;
+  /* border: 2px solid var(--lime);
+  border-radius: 50%; */
+  display: flex;
+  align-items: center;
+  
+}
+
+.curriculo__header-identidade-imagem-foto {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid var(--lime);
+  background-color: #FFF;
+}
+@media screen and (min-width: 1441px) {
+
+  .curriculo__header-conteudo {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gunmetal);
+    color: var(--champanhe);
+    min-height: 10vh;
+    max-width: 540px;
+    align-items: center;
+    padding: 1rem;
+    margin:0 auto;
+  
+  }
+  .curriculo__header-identidade-nome {
+    font-size: 2rem;
+    max-width: 1440px;
+  }
+  .curriculo__header-identidade-profissao {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+
+  .curriculo__header-identidade-imagem {
+    width: 8rem;
+    height: 8rem;
+    /* border: 2px solid var(--lime);
+    border-radius: 50%; */
+    display: flex;
+    align-items: center;
+  }
+  .curriculo__header-identidade-imagem-foto {
+    width: 10rem;
+    height: 8rem;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid var(--lime);
+  }
+
+}
+
+@media print {
+  
+  .curriculo__menu-header{
+    display:none;
+  }
+  .curriculo__header-conteudo {
+  background-color: #fff;
+  }
+
+  .curriculo__header-identidade-imagem-foto {
+display:none;
+  }
+}

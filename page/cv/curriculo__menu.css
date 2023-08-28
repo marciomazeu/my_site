@@ -1,0 +1,21 @@
+.curriculo__menu-header {
+  padding: 1rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.bandeiras {
+  width: 2rem;
+}
+
+.curriculo__menu-header .curriculo__menu-itens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.curriculo__menu-header .curriculo__menu-itens li {
+  margin: 0 2rem;
+}
+.curriculo__menu-header .curriculo__menu-itens li a {
+  text-decoration: none;
+}

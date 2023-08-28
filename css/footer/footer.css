@@ -1,0 +1,1 @@
+.footer {background-color: var(--preto);}@media screen and (min-width: 1440px) {.footer_conteudo {margin: 0 auto;max-width: 1300px;}.footer__license {margin: 0 auto;max-width: 1300px;}}@media print {.footer {display:none;}}
