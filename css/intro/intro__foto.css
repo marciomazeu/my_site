@@ -1,1 +1,113 @@
-.intro_foto {width: 100%;height: 100%;object-fit: cover;}.intro_foto-imagem {width: 100%;}@media screen and (min-width: 280px) {.intro_foto {height: 100%;box-sizing: border-box;}.intro_foto .intro_foto-imagem {width: 100%;object-fit: cover;}}@media screen and (min-width: 320px) {.intro_foto {height: auto;box-sizing: content-box;display: flex;object-fit: cover;}}@media screen and (min-width: 480px) {.intro_foto {box-sizing: content-box;display: flex;}.intro_foto .intro_foto-imagem {bottom: 0;width: 100%;object-fit: cover;justify-content: end;}}@media screen and (min-width: 600px) {.intro_foto {display: flex;width: 100%;}.intro_foto .intro_foto-imagem {bottom: 0;}}@media screen and (min-width: 800px) {.intro_conteudo .intro_foto {background-image: url("../../assets/marcio1.png");background-repeat: no-repeat;background-size: contain;background-clip: content-box;background-position: center;width: 100%;display: flex;height: 900px;position:absolute;}.intro_conteudo .intro_foto img .intro_foto-imagem {width: 30%;height: 30%;object-fit: cover;position:relative;}}@media screen and (min-width: 1025px) {.intro_foto {bottom: 0px;width: 60%;height: 80%;display: flex;flex-direction: row-reverse;text-align: center;justify-content: center;vertical-align: bottom;}.intro_foto-imagem {width: 60%;height: auto;margin: 0 auto;object-fit: contain;}}@media screen and (min-width: 1280px) {.intro_foto {bottom: 0px;width: 60%;height: 100%;display: flex;flex-direction: row-reverse;text-align: center;justify-content: center;vertical-align: bottom;}.intro_foto-imagem {height: 100%;justify-content:end;object-fit: contain;}}@media (min-width: 1440px) {.intro_foto {height: 80vh;display: flex;text-align: center;align-items: bottom;}.intro_foto-imagem {width: 100vw;margin: 0 auto;}}
+.intro_foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.intro_foto-imagem {
+    width: 100%;
+}
+@media screen and (min-width: 280px) {
+    .intro_foto {
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .intro_foto .intro_foto-imagem {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media screen and (min-width: 320px) {
+    .intro_foto {
+        height: auto;
+        box-sizing: content-box;
+        display: flex;
+        object-fit: cover;
+    }
+}
+@media screen and (min-width: 480px) {
+    .intro_foto {
+        box-sizing: content-box;
+        display: flex;
+    }
+    .intro_foto .intro_foto-imagem {
+        bottom: 0;
+        width: 100%;
+        object-fit: cover;
+        justify-content: end;
+    }
+}
+@media screen and (min-width: 600px) {
+    .intro_foto {
+        display: flex;
+        width: 100%;
+    }
+    .intro_foto .intro_foto-imagem {
+        bottom: 0;
+    }
+}
+@media screen and (min-width: 800px) {
+    .intro_conteudo .intro_foto {
+        background-image: url("../../assets/marcio1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-clip: content-box;
+        background-position: center;
+        width: 100%;
+        display: flex;
+        height: 900px;
+        position:absolute;
+    }
+    .intro_conteudo .intro_foto img .intro_foto-imagem {
+        width: 30%;
+        height: 30%;
+        object-fit: cover;
+        position:relative;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .intro_foto {
+        bottom: 0px;
+        width: 60%;
+        height: 70vh;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        justify-content: center;
+        vertical-align: bottom;
+    }
+    .intro_foto-imagem {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .intro_foto {
+        bottom: 0px;
+        width: 60%;
+        height: 70vh;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        justify-content: center;
+        vertical-align: bottom;
+    }
+    .intro_foto-imagem {
+        height: 100%;
+        justify-content:end;
+        object-fit: contain;
+    }
+}
+@media (min-width: 1440px) {
+    .intro_foto {
+        height: 80vh;
+        display: flex;
+        text-align: center;
+        align-items: bottom;
+    }
+    .intro_foto-imagem {
+        width: 100vw;
+        margin: 0 auto;
+    }
+}
