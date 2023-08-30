@@ -43,6 +43,10 @@
   border: 2px solid var(--lime);
   background-color: #FFF;
 }
+
+.curriculo__header-identidade .curriculo__email{
+margin-top: 1rem;
+}
 @media screen and (min-width: 1441px) {
 
   .curriculo__header-conteudo {
@@ -64,6 +68,7 @@
   .curriculo__header-identidade-profissao {
     font-size: 1.1rem;
     margin-top: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .curriculo__header-identidade-imagem {
@@ -82,6 +87,10 @@
     border-radius: 50%;
     border: 2px solid var(--lime);
   }
+
+  .curriculo__header-identidade .curriculo__email{
+margin-top: 1rem;
+}
 
 }
 
