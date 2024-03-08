@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/9c0c101075.js"
-      crossorigin="anonymous"
-    ></script>
+    <meta name="description" content="Pagina do meu curriculo completo.">
+    <script src="https://kit.fontawesome.com/2a6b6f60fe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/reset.css" />
     <link rel="stylesheet" href="../../css/styles.css" />
+    <link rel="stylesheet" href="./curriculo__menu.css" />
     <link rel="stylesheet" href="./curriculo__header.css" />
     <link rel="stylesheet" href="./curriculo__contato.css" />
     <link rel="stylesheet" href="./curriculo__resumo.css" />
@@ -22,103 +21,109 @@
     <title>CV - Marcio Mazeu</title>
   </head>
   <body>
-    <header class="curriculo__header">
-      <div class="curriculo__header-identidade">
-        <h1 class="curriculo__header-identidade-nome">Marcio Jose Mazeu</h1>
-        <h3 class="curriculo__header-identidade-profissao">
-          Analista de Desenvolvimento de Sistema
-        </h3>
-      </div>
+    <div class="curriculo__menu-header">
+      <ul class="curriculo__menu-itens">
+        <li><a href="../../index.html">Home</a></li>
+        <!--
+        <li><img src="../../assets/brazil32.png" class="bandeiras" alt="bandeira do Brazil"/></li>
+        <li><img src="../../assets/usa32.png" class="bandeiras" alt="bandeira do USA"/></li>
+        <li><img src="../../assets/canada32.png" class="bandeiras" alt="bandeira do Canada"/></li>
+      -->
+      </ul>
+    </div>
 
-      <div class="curriculo__header-identidade-imagem">
-        <img
-          class="curriculo__header-identidade-imagem-foto"
-          src="../../assets/rosto.png"
-          alt="foto"
-        />
+    <header class="curriculo__header-container">
+      <div class="curriculo__header-conteudo">
+        <div class="curriculo__header-identidade">
+          <h1 class="curriculo__header-identidade-nome">Marcio Jose Mazeu</h1>
+          <h3 class="curriculo__header-identidade-profissao">
+            Développeur web full-stack
+          </h3>
+          <p>
+            <a class="curriculo__email" href="mailto:marciomazeu@hotmail.com"
+              >marciomazeu@hotmail.com</a
+            >
+          </p>
+        </div>
+
+        <div class="curriculo__header-identidade-imagem">
+          <img
+            class="curriculo__header-identidade-imagem-foto"
+            src="../../assets/marcio-rosto-cor.png"
+            alt="foto"
+          />
+        </div>
       </div>
     </header>
-    <section class="curriculo__contato">
-      <a class="curriculo__whatsapp" href="https://web.whatsapp.com/send?phone=+5512997668881">
-        <i class="fa-brands fa-whatsapp"></i>+55(12)99766-8881
-      </a>
-      <p><a class="curriculo__email" href="mailto:marciomazeu@hotmail.com">marciomazeu@hotmail.com</a></p>
-    </section>
+
+
     <section class="curriculo__resumo">
       <p>
-        Tenho mais de 2 anos de experiencia com suporte de informática e
-        desenvolvimento de sistemas. Possuo experiencia em
-        atendimento de tickets e resolução de problemas de nível 1, criação de
-        relatórios administrativos utilizando consultas SQL Oracle, gestão de
-        equipamentos de ti, automatização de rotinas administrativas no ERP
-        Sankhya, manutenção e desenvolvimento de sistemas utilizando as
-        ferramentas: HTML, CSS, JavaScript, JQuery, Base de dados Oracle, SQL,
-        Java, C#, WORDPRESS e Metodologia Ágil para gerenciar projetos. No campo
-        de manufatura e montagem estrutural, tenho experiencia com organização,
-        planejamento, organização e controle de planilhas, acompanhamento de
-        kpi’s, emissão de ordens de processo, abertura de tickets para
-        engenharia de manufatura e liderança em projetos kaizen.
+        Un passionné et dévoué développeur Full stack avec plus de deux ans d'expérience dans le
+développement de systèmes. Extrêmement organisé avec la capacité de travailler de manière
+indépendante ou dans le cadre d'une équipe performante, démontrant la motivation et les compétences
+multitâches nécessaires pour respecter les délais exigeants tout en maintenant les normes les plus
+élevées.<br> Je suis actuellement à la recherche d'un poste nouveau et stimulant, où
+je peux développer mon expérience.
       </p>
     </section>
+
     <section class="curriculo__perfil">
-      <h2 class="curriculo__perfil-titulo">Competencias</h2>
+      <h2 class="curriculo__perfil-titulo">Competences</h2>
       <ul class="curriculo__perfil-competencias">
-        <li>controle emocional</li>
-        <li>criativo e inovador</li>
-        <li>prático</li>
-        <li>comunicativo</li>
-        <li>comprometido</li>
-        <li>flexibilidade</li>
-        <li>teamwork</li>
-        <li>adaptabilidade</li>
-        <li>facilidade de aprendizagem</li>
-        <li>visão sistemica</li>
+        
+        <li>Créatif et Innovant</li>
+        <li>pratique</li>
+       
+        <li>Engagé</li>
+        <li>Flexibilité</li>
+        <li>Esprit d’équipe</li>
+        <li>Adaptabilité</li>
+        <li>Facilité d’apprentissage</li>
+        <li>Vision systémique</li>
       </ul>
     </section>
     <section class="curriculo__experiencia">
-      <h2 class="curriculo__experiencia-titulo">Experiencia</h2>
+      <h2 class="curriculo__experiencia-titulo">Experience Professionnel</h2>
       <!-- Urbam -->
       <div>
         <div>
-          <h3 class="curriculo__experiencia-data">Desde 2022-09</h3>
+          <h3 class="curriculo__experiencia-data">SEPT 2022 – JUIN 2023</h3>
           <h2 class="curriculo__experiencia-cargo">
-            Analista de desenvolvimento de sistemas
+            Analyste-programmeur
           </h2>
           <h4 class="curriculo__experiencia-empresa">
             Urbam - Urbanizadora Municipal S.A
           </h4>
+          <h4>(Fournir des services publics en collaboration avec la Mairie de São José dos Campos)</h4>
         </div>
 
         <div>
           <ul class="curriculo__experiencia-atividades">
             <li>
-              Desenvolver e implantar projetos de informática sob orientações.
+              Développer le système eSams, le système du réseau public de santé de la municipalité, en utilisant .NET,
+SQL ORACLE, Javascript, CSS et HTML.
             </li>
-            <li>Efetuar levantamento de dados de rotina junto aos usuários.</li>
+            <li>Effectuer une migration complète de l’ancien système Sams, développé avec Visual Basic 6, vers le
+              nouveau système de soins de santé de la municipalité eSams.</li>
             <li>
-              Traduzir requerimento de usuários dentro de alternativas de
-              desenvolvimento de aplicações.
-            </li>
-            <li>
-              Projetar soluções de tecnologia da informação, identificando a
-              necessidade do cliente e desenhando diagramas de arquitetura.
-            </li>
-            <li>
-              Desenvolver e implantar sistemas de tecnologia da informação,
-              dimensionando requisitos e funcionalidades dos sistemas.
+              Optimiser le projet d’API eSams afin qu’il puisse être utilisé par tous les systèmes de la municipalité et des
+tiers, et ainsi éviter les incohérences du système, ce qui a permis de réduire l’ouverture des appels de niveau
+2.
             </li>
             <li>
-              Administrar e estabelecer padrões para ambiente de TI, elaborar
-              planejamento e execução de testes dos sistemas, prestar suporte
-              técnico ao cliente, elaborar documentação técnica e pesquisar
-              inovações tecnológicas.
+              Tester l’application et effectuer la maintenance du système.
             </li>
             <li>
-              Elaborar o planejamento, cronograma, conteúdo e realizar
-              treinamentos.
+              Développer une application permettant aux agents de santé d'effectuer des visites à domicile aux patients,
+en utilisant Framework Ionic et AngularJs comme base de l'application.
             </li>
-            <li>Tecnologias utilizadas: código do Visual Studio Code,<strong> C#, HTML, CSS,
-              JAVASCRIPT, JAVA, GIT, SQL ORACLE.</strong></li>
+            
+            <li>
+              Technologies utilisées: VISUAL STUDIO,<strong>
+                C#,.NET, HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY, GIT et SQL.</strong
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -126,42 +131,38 @@
       <!-- Tudo de bicho -->
       <div>
         <div>
-          <h3 class="curriculo__experiencia-data">2021-07 ate 2022-09</h3>
+          <h3 class="curriculo__experiencia-data">JUL 2021- SET 2022</h3>
           <h2 class="curriculo__experiencia-cargo">
-            Auxiliar de suporte de ti
+            Soutien informatique
           </h2>
           <h4 class="curriculo__experiencia-empresa">
-            tudo de bicho - pet shop ecommerce
+            Tudo de Bicho – PetShop Ecommerce
           </h4>
+          <h4>(Tudo de Bicho vend de la nourriture, des médicaments, des produits d’hygiène et d’autres articles pour le soin
+            des animaux domestiques.)</h4>
         </div>
 
         <div>
           <ul class="curriculo__experiencia-atividades">
-            <li>Ajudar os usuários com dúvidas ou problemas no ERP SANKHYA;</li>
+            <li>Développer des scripts (C#) pour automatiser les mises à jour
+               de prix dans la base de données,
+              réduisant le temps du secteur des ventes de deux heures par jour.</li>
             <li>
-              Criar relatórios administrativos usando SQL e criar telas no ERP
-              SANKHYA;
+              Développement d'un petit système de planification du service des toilettage et la tonte du magasin physique,
+où le préposé peut gérer les horaires et les services plus rapidement.
             </li>
-            <li>Treinamento de novos colaboradores;</li>
-            <li>Efetuar levantamento de dados de rotina junto aos usuários;</li>
-            <li>Metodologia de desenvolvimento scrum;</li>
-            <li>Configuração do Windows 7, 10 e 11;</li>
-            <li>Configuração e manutenção em software de PDV;</li>
-            <li>Instalar e configurar impressoras em rede;</li>
-            <li>Contribuir para a atualização da base de conhecimentos;</li>
-            <li>Responder a tickets de apoio por telefone, e-mail ou chat;</li>
-            <li>Monitoramento da manutenção do site;</li>
-            <li>Supervisionar o monitoramento dos programas de testes;</li>
+            <li>Paramètres de l'équipement informatique du magasin physique.</li>
+            <li>Répondre aux appels de faibles complexité pour le dépannage.</li>
             <li>
-              Tecnologias utilizadas: código do Visual Studio Code, <strong>HTML, CSS,
-              JAVASCRIPT, JAVA, GIT, SQL ORACLE</strong>.
+              Technologies utilisées: VISUAL STUDIO CODE,
+              <strong>HTML, CSS, JAVASCRIPT, C#, GIT, SQL ORACLE</strong>.
             </li>
           </ul>
         </div>
       </div>
       <br />
       <!-- Embraer -->
-      <div>
+      <!-- <div>
         <div>
           <h3 class="curriculo__experiencia-data">2006-07 ate 2020-09</h3>
           <h2 class="curriculo__experiencia-cargo">selador de aviões</h2>
@@ -193,92 +194,89 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> -->
     </section>
     <section class="curriculo__educacao">
-      <h2 class="curriculo__educacao-titulo">Educação e Formação</h2>
-      <h3 class="curriculo__educacao-tipo">Faculdade</h3>
+      <h2 class="curriculo__educacao-titulo">ÉDUCATION & DÉVELOPPEMENT PROFESSIONNEL</h2>
+      <h3 class="curriculo__educacao-tipo">Université</h3>
       <ul class="curriculo__educacao-atividades">
         <li>
-          Bacharelado em Engenahria de Computação - UNIVESP - BRASIL - Termino
-          2021-12
+          Baccalauréat en ingénierie informatique - AOÛT 2015 - DÉC 2021
         </li>
         <li>
-          Bacharelado em Engenharia de Automação e Controle - UNIP - BRASIL -
-          Termino 12-2011
+          Baccalauréat en ingénierie d’automatisation et de contrôle -
+          JAN 2007 - DÉC 2011
         </li>
       </ul>
 
-      <h3 class="curriculo__educacao-tipo">Cursos Livres</h3>
+      <h3 class="curriculo__educacao-tipo">Formation Ouverte À Distance:</h3>
       <ul class="curriculo__educacao-atividades">
         <li>
-          Oracle Developer SQL e PL-SQL / UDEMY / BRASIL / Termino 2022-05
+          Oracle Developer SQL et PL-SQL / Udemy / Brésil / Fin 05-2022
         </li>
-        <li>MYSQL – Consultas com Join / DIO / BRASIL / Termino 2022-02</li>
+        <li>My Sql - Requêtes Avec Join / Dio / Brésil / Fin 02-2022</li>
         <li>
-          SQL Server – Boas Praticas em Bancos Relacionais / DIO / BRASIL /
-          Termino 2022-02
+          Sql Server - Bonnes Pratiques dans les Banques Relationnelles / Dio / Brésil / Fin 02-2022
         </li>
-        <li>ReactJs / Alura / BRASIL / Termino 2022-01</li>
+        <li>ReactJs / Ecole Alura / BRASIL / Termino 2022-01</li>
         <li>
-          Introdução ao Framework SpringBoot / DIO / BRASIL / Termino 2021-12
+          Développeur Web / Udemy / Brésil / Fin 12-2020
         </li>
       </ul>
     </section>
     <section class="curriculo__idiomas">
-      <h3 class="curriculo__idiomas-titulo">Idiomas</h3>
-      <div>
-        <h3 class="curriculo__idiomas-idioma">Português</h3>
-        <div class="curriculo__idiomas-nivel-portugues">
+      <h3 class="curriculo__idiomas-titulo">Langues</h3>
+      <div class="curriculo__idiomas-conteudo">
+        <div>
+          <h3 class="curriculo__idiomas-idioma">Portuguais</h3>
+          <!-- <div class="curriculo__idiomas-nivel-portugues">
           <div class="curriculo__idiomas-nivel2-portugues"></div>
+        </div> -->
+          <p class="curriculo__idiomas-descricao-nivel">Natif</p>
         </div>
-        <h4 class="curriculo__idiomas-descricao-portugues">
-          Nativo
-        </h4>
-      </div>
-      <div>
-        <h3 class="curriculo__idiomas-idioma">Ingles</h3>
-        <div class="curriculo__idiomas-nivel-ingles">
+        <div>
+          <h3 class="curriculo__idiomas-idioma">Anglais</h3>
+          <!-- <div class="curriculo__idiomas-nivel-ingles">
           <div class="curriculo__idiomas-nivel2-ingles"></div>
+        </div> -->
+          <p class="curriculo__idiomas-descricao-nivel">
+            B2
+          </p>
+          <h4 class="curriculo__idiomas-descricao-ingles-cetificado">
+            <a
+              href="https://certs.duolingo.com/7402bd165d8d53b98c6dbe2be542641d"
+              target="_blank"
+              >Duolingo Englist Test</a
+            >
+          </h4>
         </div>
-        <h4 class="curriculo__idiomas-descricao-ingles">
-          Interm. Avançado - B2
-        </h4>
-        <h4 class="curriculo__idiomas-descricao-ingles-cetificado"><a href="https://certs.duolingo.com/7402bd165d8d53b98c6dbe2be542641d" target="_blank">Certificado Duolingo Englist Test</a></h4>
-      </div>
-      <div>
-        <h3 class="curriculo__idiomas-idioma">Francês</h3>
-        <div class="curriculo__idiomas-nivel-frances">
+        <div>
+          <h3 class="curriculo__idiomas-idioma">Français</h3>
+          <!-- <div class="curriculo__idiomas-nivel-frances">
           <div class="curriculo__idiomas-nivel2-frances"></div>
+        </div> -->
+          <p class="curriculo__idiomas-descricao-nivel">B1</p>
         </div>
-        <h4 class="curriculo__idiomas-descricao-frances">Iniciante A2</h4>
       </div>
     </section>
     <section class="curriculo__skill"></section>
-
-     <!-- Seção Rodape-->
-     <footer class="footer">
+    <!-- Seção Rodape-->
+    <footer class="footer" id="footer">
       
-
-      <!-- Formulario para mensagem-->
-      <!-- <section>
-        <form>
-          <label for="nome-inscrito">Seu nome:</label>
-          <input type="text" id="nome-inscrito" />
-          <label for="email-inscrito">Seu E-mail:</label>
-          <input type="email" id="email-inscrito" />
-          <label for="nome-inscrito">Telefone:</label>
-          <input type="tel" id="telefone-inscrito" />
-          <button>Enviar mensagem</button>
-        </form>
-      </section> -->
-      <!-- Fim do Formulario para mensagem-->
       <div class="footer__license">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-github"></i>
-        <p>Marcio Mazeu &copy;2022</p>
-       
+        <a href="https://www.instagram.com/mazeu9/" target="_blank"
+        aria-label="Link para visitar o instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/marcio.mazeu" target="_blank"
+        aria-label="Link para visitar o facebook"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://github.com/marciomazeu" target="_blank"
+        aria-label="Link para visitar o github"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <p>Marcio Mazeu &copy;2024</p>
       </div>
     </footer>
     <!-- Fim Seção Rodape-->
