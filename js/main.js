@@ -2,7 +2,7 @@
 
 const menuItens = document.querySelectorAll('.portfolio__menu a[href^="#"]');
 
-console.group(menuItens);
+//console.group(menuItens);
 
 menuItens.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick);
